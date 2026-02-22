@@ -1,0 +1,32 @@
+* {
+	border: none;
+	font-family: "Segoe UI", "Inter", "Roboto", sans-serif;
+	font-size: 13px;
+}
+
+window#waybar {
+	background: #1e1e1e;
+	color: #ffffff;
+	border-top: 1px solid #2a2a2a;
+}
+
+#custom-start {
+	padding: 0 14px;
+	font-size: 16px;
+}
+
+#taskbar button {
+	padding: 0 10px;
+	margin: 4px 2px;
+	border-radius: 4px;
+	transition: all 0.2s ease;
+}
+
+#taskbar button.active {
+	background: #3a3a3a;
+}
+
+
+#clock, #tray, #network, #pulseaudio, #battery {
+	padding-right: 8px;
+}

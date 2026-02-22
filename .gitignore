@@ -1,0 +1,22 @@
+# OS junk
+.cache/
+.local/
+.config/google-chrome/
+.config/BraveSoftware/
+
+# Secrets
+*.key
+*.pem
+*.env
+
+# Logs
+*.log
+
+# Binaries
+*.img
+*.iso
+*qcow2
+
+# Editor junk
+*.swp
+*.swo

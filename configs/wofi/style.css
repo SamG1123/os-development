@@ -1,0 +1,12 @@
+window {
+	background-color: rgba(30, 30, 40, 0.95);
+	border-radius: 10px;
+}
+
+entry {
+	padding: 8px;
+}
+
+entry:selected {
+	background-color: #4f8cff;
+}
